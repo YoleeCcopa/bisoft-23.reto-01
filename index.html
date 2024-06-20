@@ -5,10 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mascotas - Gatitos</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- Uso de CDN de FontAwesome (mala práctica para carga lenta) -->
     <link rel="stylesheet" href="css/font-awesome-6.5.2-all.min.css">
-    <!-- Mala práctica: Incluir estilos CSS en línea en el archivo HTML -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -67,7 +64,7 @@
         <section class="large-content">
             <h2>Contenido Extra Grande</h2>
             <p>Esta sección tiene un contenido muy grande que no es necesario para la página, con información adicional, imágenes y videos.</p>
-            <img src="https://placekitten.com/1200/800" alt="Imagen grande de un gatito">
+            <img src="imgs/gato-naranja.webp" alt="Gatito sin tamaño">
             <p>El gato doméstico (Felis catus) es un miembro pequeño de la familia Felidae. Los gatos son valorados por los seres humanos por su compañía y su habilidad para cazar plagas como roedores. Los gatos domésticos son similares en tamaño y anatomía
                 a los otros felinos, con cuerpos fuertes, flexibles y dientes y garras diseñados para matar a presas pequeñas.</p>
             <video controls>
@@ -103,18 +100,10 @@
         <p>&copy; 2024 Gatitos Encantadores</p>
         <p>Todos los derechos reservados.</p>
     </footer>
-    <!-- Mala práctica: Cargar múltiples librerías de JavaScript desde CDN -->
     <script src="js/jquery-3.7.1.min.js" defer></script>
     <script src="https://unpkg.com/@popperjs/core@2" defer></script>
     <script src="js/bootstrap-5.3.3.min.js" defer></script>
-    <!-- Mala práctica: Inline JavaScript -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log("Document loaded");
-        });
-    </script>
-    <!-- Mala práctica: Imágenes sin tamaño especificado -->
-    <img src="imgs/gato-naranja.webp" alt="Gatito sin tamaño">
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>
