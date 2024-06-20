@@ -160,7 +160,7 @@ button.wide-btn:hover {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    height: 300px;
+    height: 400px;
     overflow-y: scroll;
     background-color: #fff;
     padding: 20px;
