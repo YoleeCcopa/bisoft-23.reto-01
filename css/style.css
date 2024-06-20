@@ -94,7 +94,7 @@ form {
 
 form input,
 form textarea,
-form button {
+button.wide-btn {
     margin-bottom: 15px;
     padding: 15px;
     font-size: 16px;
@@ -116,7 +116,7 @@ form textarea {
     height: 150px;
 }
 
-form button {
+button.wide-btn {
     background-color: #8E24AA;
     /* Color de acento morado */
     color: #fff;
@@ -125,7 +125,7 @@ form button {
     transition: background-color 0.3s ease;
 }
 
-form button:hover {
+button.wide-btn:hover {
     background-color: #6A1B9A;
     /* Un tono más oscuro del color de acento */
 }
