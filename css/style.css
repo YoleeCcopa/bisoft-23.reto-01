@@ -204,7 +204,8 @@ button.wide-btn:hover {
 }
 
 .gif-gallery img {
-    width: calc(33% - 10px);
+    width: 398px;
+    height: 350px;
     border-radius: 8px;
 }
 
@@ -220,7 +221,7 @@ button.wide-btn:hover {
         width: 327px;
     }
     .gif-gallery img {
-        width: calc(50% - 10px);
+        width: 327px;
     }
 }
 
