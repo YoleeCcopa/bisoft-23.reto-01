@@ -71,7 +71,8 @@ section p {
 }
 
 .gallery img {
-    width: calc(25% - 20px);
+    width: 293px;
+    height: 318px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -216,7 +217,7 @@ button.wide-btn:hover {
         margin: 10px 0;
     }
     .gallery img {
-        width: calc(50% - 10px);
+        width: 327px;
     }
     .gif-gallery img {
         width: calc(50% - 10px);
