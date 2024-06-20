@@ -143,44 +143,10 @@ button.wide-btn:hover {
     /* Color de acento morado */
 }
 
-.large-content {
-    background-color: #eee;
-    margin-top: 20px;
-    padding: 20px;
-}
-
-.large-content h2 {
-    margin-top: 0;
-}
-
-.large-content p {
-    margin-bottom: 20px;
-}
-
-.large-content img,
-.large-content video {
-    width: 100%;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-
-.large-content iframe {
-    width: 100%;
-    height: 500px;
-    border: none;
-    margin-bottom: 20px;
-}
-
 .external-script {
     background-color: #ddd;
     margin: 20px 0;
     padding: 20px;
-}
-
-.external-script iframe {
-    width: 100%;
-    height: 500px;
-    border: none;
 }
 
 .external-script p {
